@@ -1,4 +1,9 @@
-package com.company.second;
+package com.company.second.caller;
+
+import com.company.second.studyProgram.Course;
+import com.company.second.studentsInfo.Group;
+import com.company.second.studyProgram.Lesson;
+import com.company.second.studentsInfo.Student;
 
 import java.util.Arrays;
 

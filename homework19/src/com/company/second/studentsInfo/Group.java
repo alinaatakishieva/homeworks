@@ -1,10 +1,12 @@
-package com.company.second;
+package com.company.second.studentsInfo;
+
+import com.company.second.studyProgram.Course;
 
 public class Group {
-    Student[] array;
-    Course course;
-    String startDate;
-    int months;
+    private Student[] array;
+    private Course course;
+    private String startDate;
+    private int months;
 
     public Group() {
 

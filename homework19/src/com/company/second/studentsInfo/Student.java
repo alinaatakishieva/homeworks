@@ -1,11 +1,11 @@
-package com.company.second;
+package com.company.second.studentsInfo;
 
 public class Student {
-    String birthDate;
-    String surname;
-    String name;
-    boolean isMale;
-    int age;
+    private String birthDate;
+    private String surname;
+    private String name;
+    private boolean isMale;
+    private int age;
 
     public Student() {
 

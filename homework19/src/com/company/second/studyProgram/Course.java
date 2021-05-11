@@ -1,10 +1,10 @@
-package com.company.second;
+package com.company.second.studyProgram;
 
 public class Course {
-    String name;
-    String ID;
-    String mentorsName;
-    String date;
+    private String name;
+    private String ID;
+    private String mentorsName;
+    private String date;
 
     public Course() {
 

@@ -1,12 +1,14 @@
-package com.company.second;
+package com.company.second.studyProgram;
+
+import com.company.second.studentsInfo.Student;
 
 public class Lesson {
-    String lessonDate;
-    Student [] here;
-    Course course;
-    String lessonStartTime;
-    boolean wasHomework;
-    boolean wasExam;
+    private String lessonDate;
+    private Student[] here;
+    private Course course;
+    private String lessonStartTime;
+    private boolean wasHomework;
+    private boolean wasExam;
 
     public String getLessonDate() {
         return lessonDate;
