@@ -6,33 +6,47 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Display display = new Display();
-        display.setDiagonal(18);
-        display.setProducer("Xiomi");
-        display.setMatrixType("LCD");
+//        Display display = new Display();
+//        display.setDiagonal(18);
+//        display.setProducer("Xiomi");
+//        display.setMatrixType("LCD");
 
-        HardDisk hardDisk = new HardDisk();
-        hardDisk.setMemory(8);
-        hardDisk.setDiskCount(10);
+        Display display = new Display(18,"mi","LCD");
 
-        USB usb1 = new USB();
-        usb1.setType("usb");
-        usb1.setId("a");
 
-        USB usb2 = new USB();
-        usb2.setType("type-C");
-        usb2.setId("b");
+//        HardDisk hardDisk = new HardDisk();
+//        hardDisk.setMemory(8);
+//        hardDisk.setDiskCount(10);
+
+        HardDisk hardDisk = new HardDisk(8,10);
+
+
+//        USB usb1 = new USB();
+//        usb1.setType("usb");
+//        usb1.setId("a");
+
+        USB usb1 = new USB("usb", "a");
+
+//        USB usb2 = new USB();
+//        usb2.setType("type-C");
+//        usb2.setId("b");
+
+        USB usb2 = new USB("type-C", "b ");
 
         
         USB[] array = {usb1, usb2};
 
-        Keyboard keyboard = new Keyboard();
-        keyboard.setExtraInt(false);
-        keyboard.setBacklighting(true);
+//        Keyboard keyboard = new Keyboard();
+//        keyboard.setExtraInt(false);
+//        keyboard.setBacklighting(true);
 
-        RAM ram = new RAM();
-        ram.setVolume(8);
-        ram.setProducer("mi");
+        Keyboard keyboard = new Keyboard(false,true);
+
+//        RAM ram = new RAM();
+//        ram.setVolume(8);
+//        ram.setProducer("mi");
+
+        RAM ram = new RAM(8,"mi");
 
         Laptop laptop = new Laptop();
         laptop.setBrand("Xiomi");
